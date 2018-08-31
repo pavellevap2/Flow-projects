@@ -1,0 +1,26 @@
+{
+  "name": "flow-projects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pavellevap2/Flow-projects.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pavellevap2/Flow-projects/issues"
+  },
+  "homepage": "https://github.com/pavellevap2/Flow-projects#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-flow": "^6.23.0"
+  },
+  "scripts": {
+    "flow": "flow",
+    "build": "babel src/ -d lib/",
+    "prepublish": "npm run build"
+  }
+}
